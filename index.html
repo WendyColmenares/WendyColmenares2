@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <title>Popsy's</title>
+</head>
+<body>
+    <div id="contenedor2">
+        <h2> Factura:</h2>
+        <label >
+            Nombre:
+            <h3 id="nombre_usu">Aqui va el nombre</h3>
+        </label>
+        <label >
+            Apellido:
+            <h3 id="apellido_usu">Aqui va el nombre</h3>
+        </label>
+        <label >
+            Direccion:
+            <h3 id="direccion_usu">Aqui va el nombre</h3>
+        </label>
+        <label >
+            Numero telefono:
+            <h3 id="numero_usu">Aqui va el nombre</h3>
+        </label>
+        <label >
+            Helado:
+            <h3 id="helado_usu">Aqui va el nombre</h3>
+        </label>
+    </div>
+    <div class="contenedor">
+        <form id="formulario">
+            <img src="./imagenes/Pospys.png" class="logo">
+            <div class="contenedor_input">
+                <label>
+                    Nombre:
+                    <input id="nombre" type="text" required>
+                </label>
+            </div>
+            <div class="contenedor_input">
+                <label>
+                    Apellido:
+                    <input id="apellido" type="text" required>
+                </label>
+            </div>
+            <div class="contenedor_input">
+                <label>
+                    Dirección:
+                    <input id="direccion" type="text" required>
+                </label>
+            </div>
+            <div class="contenedor_input">
+                <label>
+                    Numero de Contacto:
+                    <input id="numero" type="number" required>
+                </label>
+            </div>
+            <div class="contenedor_input">
+                <label>
+                    Sabor de helado:
+                    <select id="sabor">
+                        <option>--Sabores--</option>
+                        <option value="1">Durazno</option>
+                        <option value="2">Maracuyá</option>
+                        <option value="3">Sandia</option>
+                        <option value="4">Kiwi</option>
+                    </select>
+                </label>
+            </div>
+            <div id="contenedorImagen"></div>
+            <button type="submit" >Comprar</button>
+        </form>
+    </div>
+<script src="./scripts/script.js"></script>
+</body>
+</html>
